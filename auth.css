@@ -1,0 +1,101 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Background */
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #e8f5e9, #ffffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main card */
+.auth-container {
+  width: 350px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+/* Title */
+.auth-container h2 {
+  margin-bottom: 20px;
+  color: #2e7d32;
+  text-align: center;
+}
+
+/* Labels */
+.auth-container label {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+/* Inputs */
+.auth-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.auth-container input:focus {
+  border-color: #2e7d32;
+}
+
+/* Button */
+.auth-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auth-btn:hover {
+  background-color: #1b5e20;
+}
+
+/* Small text */
+.small-text {
+  font-size: 12px;
+  margin-top: 15px;
+  color: #555;
+  text-align: center;
+}
+
+/* Divider */
+hr {
+  margin: 20px 0;
+}
+
+/* Switch text */
+.switch-text {
+  text-align: center;
+  font-size: 14px;
+}
+
+.switch-text a {
+  color: #2e7d32;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.switch-text a:hover {
+  text-decoration: underline;
+}
