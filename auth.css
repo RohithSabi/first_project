@@ -99,3 +99,6 @@ hr {
 .switch-text a:hover {
   text-decoration: underline;
 }
+body {
+  padding-top: 80px;   /* space below navbar */
+}
